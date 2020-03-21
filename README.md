@@ -15,15 +15,15 @@ The first person will pay 675€ and the second 225€.
 
 <hr>
 
-This app has been build with [Bazooka](https://www.npmjs.com/package/@fantassin/bzk), an awesome tool made by [Fantassin](https://www.fantassin.fr/) !
+This app has been build with <a href="https://www.npmjs.com/package/@fantassin/bzk" target="_blank">Bazooka</a>, an awesome tool made by <a href="https://www.fantassin.fr/" target="_blank">Fantassin</a> !
 
 <hr>
 
-##For developers
+## For developers
 
 Run this app :
 - Clone this repository
-- In project's root folder, open a terminal and run `composer install && npm install`
+- In project's root folder, open a terminal and run `npm install`
 - Then `npm run build`
 - Finally `npm run start`
 
