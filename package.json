@@ -1,0 +1,26 @@
+{
+    "name": "who-pay-what",
+    "version": "1.0.0",
+    "description": "Who pay what app",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "@fantassin/bzk": "^1.4.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "bzk start",
+      "build": "bzk build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@gitlab.com/bazooka/theme.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://gitlab.com/bazooka/theme/issues"
+    },
+    "homepage": "https://gitlab.com/bazooka/theme#README"
+  }
