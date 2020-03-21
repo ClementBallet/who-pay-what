@@ -19,8 +19,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # dotenv environment variables file
-.env
-.env.*
+#.env
+#.env.*
 
 # Optional npm cache directory
 .npm
