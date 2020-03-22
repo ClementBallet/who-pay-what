@@ -1,0 +1,24 @@
+@import "../colors";
+
+@mixin neumorphism($shape: 'flat') {
+
+    background: $primary-color;
+
+    @if ($shape == 'flat') {
+        box-shadow:  -20px -20px 60px #bebabc, 20px 20px 60px #fffcfe;
+    }
+
+    @if ($shape == 'concave') {
+        background: linear-gradient(315deg, #efeaec, #c9c5c7);
+        box-shadow: -5px -5px 10px #bebabc, 5px 5px 10px #fffcfe;
+    }
+
+    @if ($shape == 'convex') {
+        background: linear-gradient(315deg, #c9c5c7, #efeaec);
+        box-shadow: -5px -5px 10px #bebabc, 5px 5px 10px #fffcfe;
+    }
+
+    @if ($shape == 'pressed') {
+        box-shadow: inset -20px -20px 60px #bebabc, inset 20px 20px 60px #fffcfe;
+    }
+}
