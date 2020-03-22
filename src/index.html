@@ -17,14 +17,16 @@
         <![endif]-->
 
         <section class="app-wrapper">
-            <h1 class="title">Who Pay What?</h1>
-            <p class="app-description">The app who make your home bills awesome!</p>
+            <h1 class="app-title">Who Pay What?</h1>
+            <p class="app-description is-style-h4">The app who make your home bills awesome!</p>
             <button class="more-explanation">Click here for more explanation</button>
             <form class="form">
-                <input type="number" class="salary-1" placeholder="Enter first salary" required>
-                <input type="number" class="salary-2" placeholder="Enter second salary" required>
-                <input type="number" class="bill-amount" placeholder="Enter your bill amount" required>
-                <button type="submit" class="submit">Go!</button>
+                <fieldset class="form__salaries">
+                    <input type="number" class="salary-1" placeholder="Enter first salary" required>
+                    <input type="number" class="salary-2" placeholder="Enter second salary" required>
+                </fieldset>
+                <input type="number" class="form__bill-amount" placeholder="Enter your bill amount" required>
+                <button type="submit" class="form__submit">Go!</button>
             </form>
             <p class="result"></p>
         </section>
