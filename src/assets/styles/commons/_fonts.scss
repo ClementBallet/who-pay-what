@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=BioRhyme:wght@200;300;400;700;800&display=swap');
+
 $font-bio-rhyme: 'BioRhyme', serif;
+$font-baloo: 'Baloo 2', sans-serif;
 
 @font-face {
-    font-family: 'BioRhyme';
+    font-family: $font-bio-rhyme;
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: url('../fonts/BioRhyme/BioRhyme-Regular.ttf') format('truetype');
+    src: url('./../fonts/BioRhyme/BioRhyme-Regular.ttf') format('TrueType'),
+         url('./../fonts/BioRhyme/BioRhyme-Regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'BioRhyme';
+    font-family: $font-bio-rhyme;
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url('../fonts/BioRhyme/BioRhyme-Bold.ttf') format('truetype');
+    src: url('./../fonts/BioRhyme/BioRhyme-Bold.ttf') format('TrueType'),
+         url('./../fonts/BioRhyme/BioRhyme-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: $font-baloo;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./../fonts/BioRhyme/Baloo2-Regular.ttf') format('TrueType'),
+         url('./../fonts/BioRhyme/Baloo2-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: $font-baloo;
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./../fonts/BioRhyme/Baloo2-Bold.ttf') format('TrueType'),
+         url('./../fonts/BioRhyme/Baloo2-Bold.woff') format('woff');
 }
