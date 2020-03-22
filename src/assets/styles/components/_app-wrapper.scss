@@ -1,10 +1,38 @@
+@import "~@fantassin/utils/media-queries";
+
 @import "../commons/spacer";
+@import "../commons/mixins/neumorphism";
 
 .app-wrapper {
+    @include neumorphism();
+    text-align: center;
     max-width: 500px;
-    padding: $spacer-small $spacer-xsmall;
+    padding: $spacer-xsmall $spacer;
+    margin: $spacer;
     border-radius: 50px;
-    background: #dfdbdd;
-    box-shadow:  20px 20px 60px #bebabc,
-                -20px -20px 60px #fffcfe;
+
+    @include breakpoint($medium) {
+        padding: $spacer-small $spacer-xsmall;
+    }
+
+    .more-explanation {
+        @include neumorphism('convex');
+        border-radius: $spacer/2;
+        padding: $spacer/2;
+        margin-bottom: $spacer;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+
+        &__salaries {
+            display: flex;
+            flex-direction: row;
+
+            .salary-1, .salary-2 {
+                width: calc(50% - #{$spacer / 2});
+            }
+        }
+    }
 }
