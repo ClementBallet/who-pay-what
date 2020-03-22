@@ -1,0 +1,17 @@
+$font-bio-rhyme: 'BioRhyme', serif;
+
+@font-face {
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../fonts/BioRhyme/BioRhyme-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('../fonts/BioRhyme/BioRhyme-Bold.ttf') format('truetype');
+}
