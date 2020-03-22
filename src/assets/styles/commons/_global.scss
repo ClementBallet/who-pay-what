@@ -1,0 +1,27 @@
+@import "spacer";
+@import "fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow-x: visible;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-bio-rhyme;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dfdbdd;
+}

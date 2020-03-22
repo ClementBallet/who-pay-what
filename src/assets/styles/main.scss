@@ -1,3 +1,10 @@
-@import "commons/reset.scss"
+// Commons
+@import "commons/reset";
+@import "commons/colors";
+@import "commons/spacer";
+@import "commons/fonts";
+@import "commons/global";
 
-
+// Components
+@import "components/app-wrapper";
+@import "components/popup";

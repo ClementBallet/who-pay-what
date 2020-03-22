@@ -1,0 +1,9 @@
+@import "~@fantassin/utils/spacer";
+
+// Spacers
+$spacer: 20px;
+$spacer-xsmall: spacer(2); // 40px
+$spacer-small: spacer(3); // 60px
+$spacer-medium: spacer(6); // 120px
+$spacer-large: spacer(8); // 160px
+$spacer-xlarge: spacer(10); // 200px

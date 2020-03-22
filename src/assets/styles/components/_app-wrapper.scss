@@ -1,0 +1,10 @@
+@import "../commons/spacer";
+
+.app-wrapper {
+    max-width: 500px;
+    padding: $spacer-small $spacer-xsmall;
+    border-radius: 50px;
+    background: #dfdbdd;
+    box-shadow:  20px 20px 60px #bebabc,
+                -20px -20px 60px #fffcfe;
+}
