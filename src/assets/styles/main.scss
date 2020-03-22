@@ -1,10 +1,13 @@
 // Commons
 @import "commons/reset";
+@import "commons/variables";
 @import "commons/colors";
 @import "commons/spacer";
 @import "commons/fonts";
+@import "commons/heading";
 @import "commons/global";
 
 // Components
 @import "components/app-wrapper";
 @import "components/popup";
+@import "components/dark-mode-toggle"
